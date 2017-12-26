@@ -16,13 +16,13 @@ namespace Snake
 
             Draw(x1, y1, sym1);
 
-            int x2 = 1;
-            int y2 = 2;
+            int x2 = 5;
+            int y2 = 7;
             char sym2 = '*';
 
             Draw(x2, y2, sym2);
 
-
+            Console.ReadLine();
 
         }
         static void Draw(int x, int y, char sym)
